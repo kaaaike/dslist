@@ -120,6 +120,8 @@ public class Game {
 		this.longDescription = longDescription;
 	}
 
+	
+	// Compração por Id
 	@Override
 	public int hashCode() {
 		return Objects.hash(id);
