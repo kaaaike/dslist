@@ -5,7 +5,7 @@ public interface GameMinProjection {
 	// Getters para a consulta JPA na GameRepository
 	Long getId();
 	String getTitle();
-	Integer getYear();
+	Integer getGameYear();
 	String getImgUrl();
 	String getShortDescription();
 	Integer getPosition();
